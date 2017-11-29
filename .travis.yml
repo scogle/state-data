@@ -14,8 +14,7 @@ install:
 before_script:
     - ln -s "$TRAVIS_BUILD_DIR" _pypath/state-data
 script:
-    - python -m unittest discover -s tests/integration -v
-    - coverage run --source=handler -m unittest discover -s tests/unit -v
+    - coverage run --source=states -m unittest discover -s tests -v
     - coverage report --fail-under=75
 after_failure:
     - cat $LOG_PATH/*.log
