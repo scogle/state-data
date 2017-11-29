@@ -34,4 +34,4 @@ This also assumes that a simple print statement for error messages is goon enoug
 
 Another assumption is that requiring the user to input exact state IDs is good enough for this exercise. Given more time I'd probably like to implement a more tolerant system that could handle different formats (eg, OR, ore, and oregon).
 
-My final assumption is that the weighting of the weighted average is based on the number of households of each state, not the total population.
+A final assumption/design decision I made after looking at the data is that weighting the average based on number of households instead of population will give a somewhat more accurate view.
