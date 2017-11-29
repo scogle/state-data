@@ -16,9 +16,11 @@ Example:
 
 returns:
 
-```state, population, households, income_below_poverty_level, median_income
+```
+state, population, households, income_below_poverty_level, median_income
 California, 38660952, 14450824, 0.1572, 69823.7016
-Oregon, 3996309, 1779290, 0.1594, 53775.8649```
+Oregon, 3996309, 1779290, 0.1594, 53775.8649
+```
 
 ### Testing
 
